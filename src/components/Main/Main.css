@@ -1,0 +1,83 @@
+.get-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.included-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.back-blue {
+  background: radial-gradient(
+    47.52% 46.62% at 50% 50%,
+    rgba(43, 66, 0, 0.7) 0,
+    rgba(31, 48, 0, 0) 100%
+  );
+}
+
+.table .ant-table {
+  border: 2px solid #0020a7; /* Цвет границы для всей таблицы */
+  border-radius: 0;
+}
+
+.table .ant-table th {
+  width: 33%;
+  background-color: #0020a7 !important;
+  border-radius: 0 !important;
+  color: white !important;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.table .ant-table td {
+  width: 33%;
+  border: 2px solid #0020a7; /* Цвет границы для ячеек */
+  border-radius: 0 !important;
+}
+
+.animation {
+  animation: 25s linear infinite rotate;
+  filter: grayscale(100%);
+}
+
+.animation-reverse {
+  animation: 25s linear infinite rotate-reverse;
+  filter: grayscale(100%);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  .get-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 284px);
+    gap: 20px;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .get-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}

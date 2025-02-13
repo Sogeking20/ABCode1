@@ -1,0 +1,13 @@
+.grid-contacts {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .grid-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}

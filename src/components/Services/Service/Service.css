@@ -1,0 +1,14 @@
+.animation {
+  animation: 25s linear infinite rotate;
+  filter: grayscale(100%);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

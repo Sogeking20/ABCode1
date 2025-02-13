@@ -6,12 +6,12 @@ interface Props {
 
 const ServiceAdvantages: FC<Props> = ({ className }) => {
   return (
-    <div className="MuiGrid-root section-box  MuiGrid-item MuiGrid-grid-xs-12">
-      <h2 className="text-center text-[24px] text-primary">
+    <div className="mb-[100px]">
+      <h2 className="text-center text-[30px] sm:text-[40px] text-[#0020a7] mb-5">
         ПРЕИМУЩЕСТВА РАЗРАБОТКИ НА YII2
       </h2>
-      <section className="flex gap-[30px]">
-        <div className="w-[50%] border border-primary rounded-lg p-[30px]">
+      <section className="flex flex-col md:flex-row gap-[30px]">
+        <div className="w-full md:w-[50%] border border-primary rounded-lg p-[30px]">
           <h3 className="mb-[30px] uppercase text-[16px]">
             Скорость и функционал
           </h3>
@@ -26,7 +26,7 @@ const ServiceAdvantages: FC<Props> = ({ className }) => {
             </p>
           </div>
         </div>
-        <div className="w-[50%] border border-primary rounded-lg p-[30px]">
+        <div className="w-full md:w-[50%] border border-primary rounded-lg p-[30px]">
           <h3 className="mb-[30px] uppercase text-[16px]">
             Безопасность и активная поддержка
           </h3>

@@ -14,22 +14,24 @@ const MainBanner = () => {
             Веб и мобильная разработка. Бэкенд и интеграции любой сложности.
             Проектирование архитектуры и управление процессами.
           </div>
-          <Button
-            variant={"outline"}
-            size={"lg"}
-            className="border-white text-white h-12 max-w-[500px]"
-          >
-            Заказать
-          </Button>
+          <a href="https://t.me/baielsag">
+            <Button
+              variant={"outline"}
+              size={"lg"}
+              className="border-white text-white h-12 max-w-[500px] w-[100%]"
+            >
+              Заказать
+            </Button>
+          </a>
         </div>
       </Container>
       <img
-        className="absolute animation min-w-[1000px] z-[1] right-[-300px]"
+        className="opacity-[0.5] absolute animation min-w-[1000px] z-[1] right-[-300px]"
         src={image.src}
         alt="yeah"
       />
       <img
-        className="absolute animation-reverse min-w-[1000px] z-[1] right-[-250px] top-[-300px]"
+        className="opacity-[0.5] absolute animation-reverse min-w-[1000px] z-[1] right-[-250px] top-[-300px]"
         src={image.src}
         alt="yeah"
       />

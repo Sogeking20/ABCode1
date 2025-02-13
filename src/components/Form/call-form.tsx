@@ -48,7 +48,7 @@ export const CallForm: React.FC<Props> = ({ onClose }) => {
   return (
     <FormProvider {...form}>
       <form
-        className="flex flex-col gap-5"
+        className="flex flex-col gap-5 mt-3"
         onSubmit={form.handleSubmit(onSubmit)}
       >
         <div className="w-full flex gap-5">

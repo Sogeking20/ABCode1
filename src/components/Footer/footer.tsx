@@ -8,7 +8,7 @@ interface Props {
 
 const Footer: FC<Props> = ({ className }) => {
   return (
-    <footer className={className}>
+    <footer id="footer" className={className}>
       <div className="w-[100vw] py-[100px] bg-[url('https://creonit.ru/images/blue-bg.webp')] bg-no-repeat bg-cover text-white">
         <Container>
           <div className="w-full flex flex-col-reverse gap-10 md:flex-row md:gap-5 justify-between">

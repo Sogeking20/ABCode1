@@ -28,19 +28,19 @@ const Header: FC<Props> = ({ className }) => {
         <div className="flex gap-5 items-center text-[16px] lg:gap-10">
           <Link
             className="hover:text-primary duration-300 hidden lg:block"
-            href={"services"}
+            href={"/services"}
           >
             Услуги
           </Link>
           <Link
             className="hover:text-primary duration-300 hidden lg:block"
-            href={"price"}
+            href={"/price"}
           >
             Прайс
           </Link>
           <Link
             className="hover:text-primary duration-300 hidden lg:block"
-            href={"contacts"}
+            href={"/contacts"}
           >
             Контакты
           </Link>

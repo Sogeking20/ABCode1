@@ -15,7 +15,7 @@ interface Props {
 
 const Header: FC<Props> = ({ className }) => {
   const [isBurger, setIsBurger] = useState(false);
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(false);
 
   return (
     <header className={cn("border border-b", className)}>

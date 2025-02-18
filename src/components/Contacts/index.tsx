@@ -18,19 +18,19 @@ const Contacts: FC<Props> = ({}) => {
               <div className="">
                 <p className="text-[16px] text-[#808080]">Email</p>
                 <a
-                  href="mailto:baielsag@mail.ru"
+                  href="mailto:ABCode@mail.ru"
                   className="mt-[12px] text-[22px] font-semibold duration-300 hover:text-primary"
                 >
-                  baielsag@mail.ru
+                  ABCode@mail.ru
                 </a>
               </div>
               <div className="">
                 <p className="text-[16px] text-[#808080]">Телефон</p>
                 <a
-                  href="tel:+79953894147"
+                  href="tel:+79221152222"
                   className="mt-[12px] text-[22px] font-semibold duration-300 hover:text-primary"
                 >
-                  +7(995)389-41-47
+                  +7(922)115-22-22
                 </a>
               </div>
               <div className="">
@@ -49,7 +49,7 @@ const Contacts: FC<Props> = ({}) => {
                     />
                   </a>
                   <a
-                    href="https://wa.me/79953894147"
+                    href="https://wa.me/79221152222"
                     target="_blank"
                     // className="bg-primary rounded-full p-[5px] text-center"
                     js-goal="wa_click"

@@ -13,7 +13,7 @@ interface Props {
 
 const PriceListItem: FC<Props> = ({ item }) => {
   return (
-    <div className="overflow-y-auto mb-[50px]">
+    <div className="no-scrool overflow-y-auto mb-[50px]">
       <h3 className="text-[32px] text-[#0020a7] font-semibold mb-3">
         {item.title}
       </h3>

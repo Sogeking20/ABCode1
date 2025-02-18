@@ -13,8 +13,8 @@ interface Props {
 const HeaderBurger: FC<Props> = ({ onClose, isActive }) => {
   return (
     <div
-      className={`w-[100vw] h-[100vh] fixed z-10 bg-white top-0 left-0 overflow-y-auto ${
-        isActive ? "opacity-100" : "opacity-0 hidden"
+      className={`w-[100vw] h-[100vh] fixed z-10 duration-300 bg-white top-0 left-0 overflow-y-auto ${
+        isActive ? "opacity-100" : "opacity-0 z-[-10]"
       }`}
     >
       <Container>
@@ -40,19 +40,19 @@ const HeaderBurger: FC<Props> = ({ onClose, isActive }) => {
             <div className="">
               <p className="text-[16px] text-[#808080]">Email</p>
               <a
-                href="mailto:baielsag@mail.ru"
+                href="mailto:ABCode@mail.ru"
                 className="mt-[12px] text-[22px] font-semibold duration-300 hover:text-primary"
               >
-                baielsag@mail.ru
+                ABCode@mail.ru
               </a>
             </div>
             <div className="">
               <p className="text-[16px] text-[#808080]">Телефон</p>
               <a
-                href="tel:+79953894147"
+                href="tel:+79221152222"
                 className="mt-[12px] text-[22px] font-semibold duration-300 hover:text-primary"
               >
-                +7(995)389-41-47
+                +7(922)115-22-22
               </a>
             </div>
             <div className="">
@@ -71,7 +71,7 @@ const HeaderBurger: FC<Props> = ({ onClose, isActive }) => {
                   />
                 </a>
                 <a
-                  href="https://wa.me/79953894147"
+                  href="https://wa.me/79221152222"
                   target="_blank"
                   // className="bg-primary rounded-full p-[5px] text-center"
                   js-goal="wa_click"
@@ -89,9 +89,9 @@ const HeaderBurger: FC<Props> = ({ onClose, isActive }) => {
           <div className="w-full flex-col lg:flex-row flex gap-5 justify-between">
             <div className="flex flex-col justify-between">
               <div className="">
-                <div className="text-[20px]">//ABCode</div>
-                <div className="text-[16px]">
-                  Компания по разработке программного обеспечения
+                <div className="text-[28px] font-bold">ABCode</div>
+                <div className="text-[20px]">
+                  Компания по разработке цифровых продуктов
                 </div>
               </div>
             </div>

@@ -57,12 +57,12 @@ const MainGet: FC<Props> = ({ className }) => {
               ></path>
             </svg>
             <div className="font-bold text-[24px]">
-              IT-продукт, созданный с современными технологиями
+              Чистый код, с которым легко работать
             </div>
             <div className="text-[16px] text-gray-500 ">
-              Наша команда создает продукты с помощью передовых фреймворков:
-              JavaScript, React Native, AWS, Jenkins. С ними ваше приложение
-              будет работать без сбоев.
+              Как только закончим процесс разработки, сможете передать проект
+              другой команде. Ей не придется тратить время для того, чтобы
+              разбираться с кодом и переписывать его части.
             </div>
           </div>
           <div className="w-[343px] sm:w-[270px] mx-5 sm:my-5 border border-primary py-[44px] px-[28px] flex flex-col sm:items-center gap-5">
@@ -95,12 +95,13 @@ const MainGet: FC<Props> = ({ className }) => {
               <rect x="56" y="58" width="8" height="12" fill="#0020a7"></rect>
             </svg>
             <div className="font-bold text-[24px]">
-              IT-продукт, созданный с современными технологиями
+              Проект, который выйдет строго в срок
             </div>
             <div className="text-[16px] text-gray-500 ">
-              Наша команда создает продукты с помощью передовых фреймворков:
-              JavaScript, React Native, AWS, Jenkins. С ними ваше приложение
-              будет работать без сбоев.
+              Подключим менеджера проекта — он будет держать вас в курсе
+              событий. Вы будете получать обновления по приложению каждую
+              неделю. Можете быть уверены — вы успеете показать инвесторам
+              готовый продукт и привлечь инвестиции.
             </div>
           </div>
           <div className="w-[343px] sm:w-[270px] mx-5 sm:my-5 border border-primary py-[44px] px-[28px] flex flex-col sm:items-center gap-5">
@@ -121,13 +122,12 @@ const MainGet: FC<Props> = ({ className }) => {
                 fill="white"
               ></path>
             </svg>
-            <div className="font-bold text-[24px]">
-              IT-продукт, созданный с современными технологиями
-            </div>
+            <div className="font-bold text-[24px]">Команду с опытом</div>
             <div className="text-[16px] text-gray-500 ">
-              Наша команда создает продукты с помощью передовых фреймворков:
-              JavaScript, React Native, AWS, Jenkins. С ними ваше приложение
-              будет работать без сбоев.
+              Все наши разработчики с большим стажем работы. У нас есть
+              экспертиза и разработчики — сформируем команду, исходя из ваших
+              требований. А если у вас уже есть разработчики в штате, но они
+              заняты другими проектами, мы подключим своих.
             </div>
           </div>
         </div>

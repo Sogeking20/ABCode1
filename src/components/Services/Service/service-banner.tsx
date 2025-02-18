@@ -4,29 +4,21 @@ import image from "../../../../public/шест (1).png";
 
 interface Props {
   className?: string;
+  title: string;
+  description: string;
+  img: string;
 }
 
-const ServiceBanner: FC<Props> = ({ className }) => {
+const ServiceBanner: FC<Props> = ({ className, title, description, img }) => {
   return (
     <div className="w-full my-[100px]">
       <div className="flex flex-col sm:flex-row gap-[30px] sm:gap-[70px] items-center">
         <div className="flex flex-col gap-[40px] items-center sm:w-[50%]">
           <div className="w-full flex gap-[40px]">
-            <img
-              className="w-[70px] h-[70px]"
-              src="https://api.mediaten.ru/storage/company-service/8/kqG4vAjxWiMQDiaY5LkZyPoLVCqVouUoWp4gv1e1.svg"
-              alt=""
-            />
-            <h1 className="uppercase text-[36px]">
-              Backend разработка на Yii2
-            </h1>
+            <img className="w-[70px] h-[70px]" src={img} alt="" />
+            <h1 className="uppercase text-[36px]">{title}</h1>
           </div>
-          <p className="text-[18px]">
-            Yii2 – это мощный фреймворк для создания и модификации
-            веб-приложений на PHP. Он упрощает и ускоряет процесс разработки,
-            обеспечивает безопасность и имеет широкий набор инструментов для
-            создания веб-приложений.
-          </p>
+          <p className="text-[18px]">{description}</p>
           <a className="w-full" href="https://t.me/baielsag">
             <Button variant={"outline"} className="w-full uppercase">
               Заказать услугу

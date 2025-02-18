@@ -26,7 +26,7 @@ const ServicesGroupListItem: FC<Props> = ({ className, data }) => {
       )}
     >
       <div className="w-full border-2px border-r border-[hsla(0, 0%, 54.1%, .40)] duration-300 h-full group-hover:border-primary">
-        <h3 className="uppercase text-[24px]">{data.title}</h3>
+        <h3 className="uppercase text-[24px] mb-3">{data.title}</h3>
       </div>
       <div className="">
         {data.items.map((service) => (

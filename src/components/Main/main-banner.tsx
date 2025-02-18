@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Container } from "../ui/container";
-import image from "../../../public/image.png";
+import image from "../../../public/image-Photoroom (1)-no-bg-preview (carve.photos).png";
 
 const MainBanner = () => {
   return (
@@ -26,12 +26,12 @@ const MainBanner = () => {
         </div>
       </Container>
       <img
-        className="opacity-[0.5] absolute animation min-w-[1000px] z-[1] right-[-300px]"
+        className="opacity-80 absolute animation min-w-[1000px] z-[1] right-[-300px]"
         src={image.src}
         alt="yeah"
       />
       <img
-        className="opacity-[0.5] absolute animation-reverse min-w-[1000px] z-[1] right-[-250px] top-[-300px]"
+        className="opacity-80 absolute animation-reverse min-w-[1000px] z-[1] right-[-250px] top-[-300px]"
         src={image.src}
         alt="yeah"
       />

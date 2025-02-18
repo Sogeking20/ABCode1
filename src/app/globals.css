@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Ubuntu", serif;
 }
 
 @keyframes colorChange {
@@ -18,8 +18,16 @@ body {
   }
 }
 
+textarea:focus {
+  outline: none;
+}
+
 .banner {
   background-color: colorChange;
+}
+
+.no-scrool::-webkit-scrollbar {
+  width: 0;
 }
 
 @layer base {

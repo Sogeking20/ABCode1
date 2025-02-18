@@ -10,13 +10,25 @@ import ServiceFaq from "./service-faq";
 
 interface Props {
   className?: string;
+  serviceData: {
+    title: string;
+    description: string;
+    advantages1?: string;
+    advantages2?: string;
+    img: string;
+    slug: string;
+  };
 }
 
-const Service: FC<Props> = ({ className }) => {
+const Service: FC<Props> = ({ className, serviceData }) => {
   return (
     <div className={className}>
       <Container>
-        <ServiceBanner />
+        <ServiceBanner
+          title={serviceData.title}
+          description={serviceData.description}
+          img={serviceData.img}
+        />
         <ServiceAdvantages />
         <ServiceDignity />
         <ServiceStages />

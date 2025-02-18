@@ -4,7 +4,7 @@ import React from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { TFormLoginValues, formLoginSchema } from "@/components/Form/schemas";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { FormInput } from "@/components/ui/form-input";
+import { FormInput, FormTextArea } from "@/components/ui/form-input";
 import { Button } from "@/components/ui/button";
 import toast from "react-hot-toast";
 import { sendMessage } from "@/app/actions";
@@ -51,21 +51,21 @@ export const CallForm: React.FC<Props> = ({ onClose }) => {
         className="flex flex-col gap-5 mt-3"
         onSubmit={form.handleSubmit(onSubmit)}
       >
-        <div className="w-full flex gap-5">
+        <div className="w-full flex flex-col sm:flex-row gap-5">
           <FormInput
-            className="w-[50%]"
+            className="sm:w-[50%]"
             name="name"
             placeholder="Ваше имя"
             required
           />
           <FormInput
-            className="w-[50%]"
+            className="sm:w-[50%]"
             name="phoneOrEmail"
             placeholder="Телефон или почта"
             required
           />
         </div>
-        <FormInput placeholder="Сообщение" name="description" required />
+        <FormTextArea name="description" />
 
         <Button
           loading={form.formState.isSubmitting}

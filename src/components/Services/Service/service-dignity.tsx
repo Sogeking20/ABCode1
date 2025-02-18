@@ -12,7 +12,7 @@ const ServiceDignity: FC<Props> = ({ className }) => {
       </h2>
       <section className="grid lg:grid-cols-3 gap-[30px] text-white ">
         <div className="border-1px p-[30px] bg-[url('https://creonit.ru/images/blue-bg.webp')] bg-no-repeat bg-cover rounded-3xl">
-          <div className="flex gap-[30px] items-center">
+          <div className="flex gap-[30px] items-center mb-3">
             <div className="w-[40px] h-[40px]">
               <img
                 src="https://api.mediaten.ru/storage/reason-to-choose/16/lXVNsdFy8WNn6KCJLCybpmO3rVcMJ2KPdh2JHlgq.svg"
@@ -35,7 +35,7 @@ const ServiceDignity: FC<Props> = ({ className }) => {
           </div>
         </div>
         <div className="border-1px p-[30px] bg-[url('https://creonit.ru/images/blue-bg.webp')] bg-no-repeat bg-cover rounded-3xl">
-          <div className="flex gap-[30px] items-center">
+          <div className="flex gap-[30px] items-center mb-3">
             <div className="w-[40px] h-[40px]">
               <img
                 src="https://api.mediaten.ru/storage/reason-to-choose/16/lXVNsdFy8WNn6KCJLCybpmO3rVcMJ2KPdh2JHlgq.svg"
@@ -58,7 +58,7 @@ const ServiceDignity: FC<Props> = ({ className }) => {
           </div>
         </div>
         <div className="border-1px p-[30px] bg-[url('https://creonit.ru/images/blue-bg.webp')] bg-no-repeat bg-cover rounded-3xl">
-          <div className="flex gap-[30px] items-center">
+          <div className="flex gap-[30px] items-center mb-3">
             <div className="w-[40px] h-[40px]">
               <img
                 src="https://api.mediaten.ru/storage/reason-to-choose/16/lXVNsdFy8WNn6KCJLCybpmO3rVcMJ2KPdh2JHlgq.svg"

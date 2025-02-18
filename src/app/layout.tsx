@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import { Ubuntu } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/header";
 import Footer from "@/components/Footer/footer";
 import { Toaster } from "react-hot-toast";
 
-const nunito = Nunito({
+const nunito = Ubuntu({
+  weight: "400",
   variable: "--font-geist-sans",
   subsets: ["latin", "cyrillic"],
 });

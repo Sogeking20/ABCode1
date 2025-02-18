@@ -17,7 +17,7 @@ const ServiceItem: FC<Props> = ({ className, data }) => {
     <div
       className={cn(
         className,
-        "w-full cursor-pointer p-[20px] duration-300 hover:bg-[hsla(0, 0%, 54.1%, .18)]"
+        "w-full cursor-pointer p-[20px] duration-300 hover:bg-[hsla(0, 0%, 54.1%, .18)] border-b border-2px hover:border-primary"
       )}
     >
       <Link href={`/services/${data.slug}`} className="">

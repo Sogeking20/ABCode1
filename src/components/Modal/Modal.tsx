@@ -13,8 +13,8 @@ interface Props {
 const Modal: FC<Props> = ({ onClose, isActive }) => {
   return (
     <div
-      className={`w-[100vw] h-[100vh] fixed z-10 bg-white top-0 left-0 ${
-        isActive ? "opacity-100" : "opacity-0 hidden"
+      className={`w-[100vw] h-[100vh] fixed z-10 bg-white top-0 duration-300 left-0 ${
+        isActive ? "opacity-100" : "opacity-0 z-[-10]"
       }`}
     >
       <Container>

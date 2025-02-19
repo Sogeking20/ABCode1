@@ -27,7 +27,7 @@ const Modal: FC<Props> = ({ onClose, isActive }) => {
       </Container>
 
       <div className="w-full h-full flex items-center justify-center px-10">
-        <div className="max-w-[1280px] w-[100%] py-[100px] px-[30px] bg-[url('https://creonit.ru/images/blue-bg.webp')] bg-no-repeat bg-cover text-white rounded-3xl">
+        <div className="max-w-[1280px] w-[100%] py-5 md:py-[100px] px-[30px] bg-[url('https://creonit.ru/images/blue-bg.webp')] bg-no-repeat bg-cover text-white rounded-3xl">
           <div className="w-full flex flex-col-reverse gap-8 md:grid grid-cols-2 md:gap-5 justify-between">
             <div className="h-full flex flex-col justify-between gap-10">
               <div className="">
@@ -69,7 +69,7 @@ const Modal: FC<Props> = ({ onClose, isActive }) => {
                   href="tel:+79221152222"
                   className="mt-[12px] text-[24px] font-semibold duration-300 hover:opacity-80"
                 >
-                  +7(922)115-22-422
+                  +7(922)115-22-22
                 </a>
                 <a
                   href="mailto:ABCode@mail.ru"
@@ -80,7 +80,7 @@ const Modal: FC<Props> = ({ onClose, isActive }) => {
               </div>
             </div>
             <div className="">
-              <div className="text-[36px] mb-[30px]">
+              <div className="text-[30px] md:text-[36px] mb-[30px]">
                 Давайте обсудим ваш проект
               </div>
               <CallForm />

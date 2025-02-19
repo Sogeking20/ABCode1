@@ -18,12 +18,16 @@ const MainStages: FC<Props> = ({ className }) => {
   return (
     <div className={cn(className, "mb-[100px]")}>
       <Container>
-        <h3 className="uppercase text-[50px] sm:text-[60px] lg:text-[70px]font-bold mb-5">
+        <h3 className="uppercase text-[40px] sm:text-[60px] lg:text-[70px]font-bold mb-5">
           Как мы работаем
         </h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="flex mb-[40px]">
-            <NotebookPen color="#0020a7" size={60} className="mr-[20px]" />
+            <NotebookPen
+              color="#0020a7"
+              size={60}
+              className="min-w-[32px] mr-[20px]"
+            />
             <div className="">
               <div className="text-[24px] text-[#0020a7] font-bold mb-[15px]">
                 1. Изучение проекта
@@ -35,7 +39,11 @@ const MainStages: FC<Props> = ({ className }) => {
             </div>
           </div>
           <div className="flex mb-[40px]">
-            <BookUser color="#0020a7" size={60} className="mr-[20px]" />
+            <BookUser
+              color="#0020a7"
+              size={60}
+              className="min-w-[32px] mr-[20px]"
+            />
             <div className="">
               <div className="text-[24px] text-[#0020a7] font-bold mb-[15px]">
                 2. Подбор специалиста внутри нашей команды
@@ -47,7 +55,11 @@ const MainStages: FC<Props> = ({ className }) => {
             </div>
           </div>
           <div className="flex mb-[40px]">
-            <PhoneCall color="#0020a7" size={60} className="mr-[20px]" />
+            <PhoneCall
+              color="#0020a7"
+              size={60}
+              className="min-w-[32px] mr-[20px]"
+            />
             <div className="">
               <div className="text-[24px] text-[#0020a7] font-bold mb-[15px]">
                 3. Онлайн собеседование и тестовое задание
@@ -59,7 +71,11 @@ const MainStages: FC<Props> = ({ className }) => {
             </div>
           </div>
           <div className="flex mb-[40px]">
-            <Handshake color="#0020a7" size={60} className="mr-[20px]" />
+            <Handshake
+              color="#0020a7"
+              size={60}
+              className="min-w-[32px] mr-[20px]"
+            />
             <div className="">
               <div className="text-[24px] text-[#0020a7] font-bold mb-[15px]">
                 4. Соглашение
@@ -71,7 +87,11 @@ const MainStages: FC<Props> = ({ className }) => {
             </div>
           </div>
           <div className="flex mb-[40px]">
-            <Rocket color="#0020a7" size={60} className="mr-[20px]" />
+            <Rocket
+              color="#0020a7"
+              size={60}
+              className="min-w-[32px] mr-[20px]"
+            />
             <div className="">
               <div className="text-[24px] text-[#0020a7] font-bold mb-[15px]">
                 5. Начало проекта
@@ -83,7 +103,11 @@ const MainStages: FC<Props> = ({ className }) => {
             </div>
           </div>
           <div className="flex mb-[40px]">
-            <ShieldCheck color="#0020a7" size={60} className="mr-[20px]" />
+            <ShieldCheck
+              color="#0020a7"
+              size={60}
+              className="min-w-[32px] mr-[20px]"
+            />
             <div className="">
               <div className="text-[24px] text-[#0020a7] font-bold mb-[15px]">
                 6. Завершение проекта

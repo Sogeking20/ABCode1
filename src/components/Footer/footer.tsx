@@ -52,7 +52,7 @@ const Footer: FC<Props> = ({ className }) => {
                   href="tel:+79221152222"
                   className="mt-[12px] text-[24px] font-semibold duration-300 hover:opacity-80"
                 >
-                  +7(922)115-22-422
+                  +7(922)115-22-22
                 </a>
                 <a
                   href="mailto:ABCode@mail.ru"

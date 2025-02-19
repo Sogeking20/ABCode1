@@ -11,11 +11,13 @@ const MainReasons: FC<Props> = ({ className }) => {
   return (
     <div className={cn(className, "mb-[100px]")}>
       <Container>
-        <h3 className="uppercase text-[50px] sm:text-[60px] lg:text-[70px] font-bold mb-5">Почему мы</h3>
+        <h3 className="uppercase text-[40px] sm:text-[60px] lg:text-[70px] font-bold mb-5">
+          Почему мы
+        </h3>
         <div className="flex flex-wrap">
           <div className="m-[20px] max-w-[560px] flex">
             <LaptopMinimalCheck
-              className="mr-[20px]"
+              className="min-w-[32px] mr-[20px]"
               size={32}
               color="#0020a7"
             />
@@ -31,7 +33,11 @@ const MainReasons: FC<Props> = ({ className }) => {
             </div>
           </div>
           <div className="m-[20px] max-w-[560px] flex">
-            <Code className="mr-[20px]" size={32} color="#0020a7" />
+            <Code
+              className="min-w-[32px] mr-[20px]"
+              size={32}
+              color="#0020a7"
+            />
             <div className="max-w-[506px]">
               <div className="font-bold mb-[24px] text-[24px] text-[#0020a7]">
                 Сможете работать с кодом, который легко изменить под свои нужды
@@ -44,7 +50,11 @@ const MainReasons: FC<Props> = ({ className }) => {
             </div>
           </div>
           <div className="m-[20px] max-w-[560px] flex">
-            <Rocket className="mr-[20px]" size={32} color="#0020a7" />
+            <Rocket
+              className="min-w-[32px] mr-[20px]"
+              size={32}
+              color="#0020a7"
+            />
             <div className="max-w-[506px]">
               <div className="font-bold mb-[24px] text-[24px] text-[#0020a7]">
                 Запустите приложение вовремя
@@ -58,7 +68,11 @@ const MainReasons: FC<Props> = ({ className }) => {
             </div>
           </div>
           <div className="m-[20px] max-w-[560px] flex">
-            <GraduationCap className="mr-[20px]" size={32} color="#0020a7" />
+            <GraduationCap
+              className="min-w-[32px] mr-[20px]"
+              size={32}
+              color="#0020a7"
+            />
             <div className="max-w-[506px]">
               <div className="font-bold mb-[24px] text-[24px] text-[#0020a7]">
                 Будете сотрудничать с командой, у которой есть нужный опыт

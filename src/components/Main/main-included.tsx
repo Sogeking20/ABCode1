@@ -11,7 +11,7 @@ const MainIncluded: FC<Props> = ({ className }) => {
   return (
     <div className={cn(className, "mb-[100px]")}>
       <Container>
-        <h3 className="uppercase text-[50px] sm:text-[60px] lg:text-[70px] font-bold mb-5">
+        <h3 className="uppercase text-[40px] sm:text-[60px] lg:text-[70px] font-bold mb-5">
           Что вы получите
         </h3>
         <div className="flex flex-wrap mb-[80px]">

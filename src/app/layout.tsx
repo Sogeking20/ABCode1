@@ -4,6 +4,9 @@ import "./globals.css";
 import Header from "@/components/Header/header";
 import Footer from "@/components/Footer/footer";
 import { Toaster } from "react-hot-toast";
+import YandexMetrika from "@/components/YandexMetrika/YandexMetrika";
+import Script from "next/script";
+import { Suspense } from "react";
 
 const nunito = Ubuntu({
   weight: "400",
@@ -30,6 +33,7 @@ export default function RootLayout({
         <Footer />
         <Toaster />
       </body>
+      <YandexMetrika />
     </html>
   );
 }

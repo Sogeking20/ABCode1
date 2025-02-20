@@ -32,8 +32,8 @@ export default function RootLayout({
         {children}
         <Footer />
         <Toaster />
+        <YandexMetrika />
       </body>
-      <YandexMetrika />
     </html>
   );
 }

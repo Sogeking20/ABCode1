@@ -19,7 +19,7 @@ const ServiceBanner: FC<Props> = ({ className, title, description, img }) => {
             <h1 className="uppercase text-[36px]">{title}</h1>
           </div>
           <p className="text-[18px]">{description}</p>
-          <a className="w-full" href="https://t.me/baielsag">
+          <a className="w-full" href="https://t.me/abcode_official">
             <Button variant={"outline"} className="w-full uppercase">
               Заказать услугу
             </Button>

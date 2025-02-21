@@ -8,7 +8,7 @@ const ServiceAdvantages: FC<Props> = ({ className }) => {
   return (
     <div className="mb-[100px]">
       <h2 className="text-center text-[30px] sm:text-[40px] text-[#0020a7] mb-5">
-        ПРЕИМУЩЕСТВА РАЗРАБОТКИ НА YII2
+        ПРЕИМУЩЕСТВА РАЗРАБОТКИ
       </h2>
       <section className="flex flex-col md:flex-row gap-[30px]">
         <div className="w-full md:w-[50%] border border-primary rounded-lg p-[30px]">

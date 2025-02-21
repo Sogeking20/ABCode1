@@ -54,7 +54,7 @@ const Header: FC<Props> = ({ className }) => {
           </Button>
           <div className="flex gap-5">
             <a
-              href="https://t.me/baielsag"
+              href="https://t.me/abcode_official"
               target="_blank"
               // className="bg-primary rounded-full p-[5px] text-center"
               js-goal="tg_click"

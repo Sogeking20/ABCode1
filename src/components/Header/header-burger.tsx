@@ -59,7 +59,7 @@ const HeaderBurger: FC<Props> = ({ onClose, isActive }) => {
               <p className="text-[16px] text-[#808080]">Мессенджеры</p>
               <div className="flex gap-5 mt-[12px]">
                 <a
-                  href="https://t.me/baielsag"
+                  href="https://t.me/abcode_official"
                   target="_blank"
                   // className="bg-primary rounded-full p-[5px] text-center"
                   js-goal="tg_click"
@@ -97,7 +97,7 @@ const HeaderBurger: FC<Props> = ({ onClose, isActive }) => {
               <div className="flex flex-col gap-2">
                 <div className="flex gap-5 mt-[12px]">
                   <a
-                    href="https://t.me/baielsag"
+                    href="https://t.me/abcode_official"
                     target="_blank"
                     // className="bg-primary rounded-full p-[5px] text-center"
                     js-goal="tg_click"

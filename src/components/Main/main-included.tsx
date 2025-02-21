@@ -426,7 +426,7 @@ const MainIncluded: FC<Props> = ({ className }) => {
           </div>
         </div>
         <div className="w-full flex justify-center">
-          <a href="https://t.me/baielsag">
+          <a href="https://t.me/abcode_official">
             <Button
               className="text-[25px] h-[50px]"
               variant={"outline"}

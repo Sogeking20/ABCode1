@@ -27,39 +27,33 @@ const ServicesBanner: FC<Props> = ({ className }) => {
           </Link>
           <Link
             className="border rounded-sm uppercase py-[8px] px-[12px] border-[hsla(0, 0%, 54.1%, .18)]"
-            href="/services#backend"
+            href="/services#fullstack"
           >
             FullStack разработка
           </Link>
           <Link
             className="border rounded-sm uppercase py-[8px] px-[12px] border-[hsla(0, 0%, 54.1%, .18)]"
-            href="/services#backend"
+            href="/services#mobile"
           >
             Mobile разработка
           </Link>
           <Link
             className="border rounded-sm uppercase py-[8px] px-[12px] border-[hsla(0, 0%, 54.1%, .18)]"
-            href="/services#backend"
+            href="/services#testing"
           >
             Тестирование
           </Link>
           <Link
             className="border rounded-sm uppercase py-[8px] px-[12px] border-[hsla(0, 0%, 54.1%, .18)]"
-            href="/services#backend"
+            href="/services#management"
           >
-            UI/UX дизайн
+            Менеджмент
           </Link>
           <Link
             className="border rounded-sm uppercase py-[8px] px-[12px] border-[hsla(0, 0%, 54.1%, .18)]"
-            href="/services#backend"
+            href="/services#enterprise"
           >
-            Backend разработка
-          </Link>
-          <Link
-            className="border rounded-sm uppercase py-[8px] px-[12px] border-[hsla(0, 0%, 54.1%, .18)]"
-            href="/services#backend"
-          >
-            Backend разработка
+            Enterprise-решения
           </Link>
         </div>
       </Container>

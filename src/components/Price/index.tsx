@@ -20,7 +20,7 @@ const Price: FC<Props> = ({ className }) => {
             напишите нам. Мы ответим на интересующие вопросы и составим план по
             решению ваших задач.
           </p>
-          <a href="https://t.me/baielsag">
+          <a href="https://t.me/abcode_official">
             <Button className="" variant={"outline"} size={"lg"}>
               Получить консультацию
             </Button>
